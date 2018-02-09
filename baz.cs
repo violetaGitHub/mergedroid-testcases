@@ -21,6 +21,7 @@ namespace Codice.CM.SemanticMerge.Gui.Merge
 {
     internal interface IMoveExplanationCalculator
     {
+//Manual conflict
         MoveMoveExplanation GetMoveMoveExplanation(MovedMovedConflict conflict);
     }
 
