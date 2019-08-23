@@ -101,7 +101,7 @@ namespace GitMaster.LoginWindow
 
         Panel CreateContentErrorPanel(string message)
         {
-            StackPanel result = new StackPanel(); //other change method dst
+            StackPanel result = new StackPanel(); //other change method dst 2
 
             TextBlock titleTextBlock = WebControlBuilder.CreateTitle(
                 GitMasterLocalization.GetString(
