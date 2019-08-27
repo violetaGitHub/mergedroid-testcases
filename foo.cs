@@ -41,7 +41,7 @@ namespace GitMaster.LoginWindow
         {
             ClearErrors();
 
-            LoginConfiguration.Data data = LoginConfiguration.Data.Build(
+            LoginConfiguration.Data data = LoginConfiguration.Data.Build( ///change method in dst
                 mUserTextBox.Text,
                 mPasswordTextBox.Text);
 
@@ -102,7 +102,7 @@ namespace GitMaster.LoginWindow
 
         Panel CreateContentPanel()
         {
-            StackPanel result = new StackPanel();
+            StackPanel result = new StackPanel(); //change method dst
 
             TextBlock titleTextBlock = WebControlBuilder.CreateTitle(
                 GitMasterLocalization.GetString(
@@ -120,7 +120,7 @@ namespace GitMaster.LoginWindow
 
         Panel CreateContentErrorPanel(string message)
         {
-            StackPanel result = new StackPanel();
+            StackPanel result = new StackPanel(); //other change method dst 4
 
             TextBlock titleTextBlock = WebControlBuilder.CreateTitle(
                 GitMasterLocalization.GetString(
